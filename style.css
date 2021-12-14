@@ -1,0 +1,24 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  /* edit to your desired background color: */
+  background-color: #000000;
+  overflow-x:hidden;
+  overflow-y:hidden;
+}
+
+canvas, video {
+  /* do not edit -- this does the centering! */
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+video {
+  display: none;
+}
